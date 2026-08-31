@@ -56,8 +56,10 @@ python3 resubmit_failed.py
 Per-era corrections (photon scale&smearing, golden JSON) are dicts at the top of
 `run_xAnaProducerMultiFiles_fixed.py`, keyed by `<year>`. Add a new era there.
 
-<year>: 2022, 2022EE, 2023, 2023BPix, 2024, 2025, 2026. Sub-eras merge into the parent year downstream via {year}* wildcards
-<era> here contains "2022C" etc, just is used for the output sub-directory creation and nothing else.
+**`<year>`:** `2022`, `2022EE`, `2023`, `2023BPix`, `2024`, `2025`, `2026`.
+Sub-eras merge into the parent year downstream via `{year}*` wildcards.
+
+ **`<era>`:** here contains "2022C" etc, just is used for the output sub-directory creation and nothing else.
 
 ---
 
