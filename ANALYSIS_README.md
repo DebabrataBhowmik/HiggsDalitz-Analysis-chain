@@ -18,7 +18,7 @@ operational runbook.
 NanoAOD  ──►  NanoBridge  ──►  skimTree  ──►  xAna  ──►  Tree2WS  ──►  Background
 (central/     (produce         (skim +        (event       (build       (data-driven
  private)     nanoBridge)     MC-truth cut)   selection,   RooFit        bkg fit)
-               output trees                   weights,     workspaces)
+              output trees                    weights,     workspaces)
                                               categories)
                                                                           │
                                           ┌───────────────────────────────┘
